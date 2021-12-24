@@ -1,0 +1,38 @@
+/*
+ * LCD_CFG.h
+ *
+ * Created: 12/14/2021 1:26:01 PM
+ *  Author: khaled
+ */ 
+
+
+#ifndef LCD_CFG_H_
+#define LCD_CFG_H_
+
+
+#include "DIO.h"
+
+#define		LCD_Mode	 4
+
+#define		LCD_8BIT_CMND_PORT		DIO_PORTB
+#define		LCD_8BIT_Data_PORT		DIO_PORTA
+
+#define		LCD_4BIT_CMND_PORT		DIO_PORTB
+#define		LCD_4BIT_Data_PORT		DIO_PORTA
+
+#define		LCD_RS_PIN		DIO_PIN1
+#define		LCD_RW_PIN		DIO_PIN2
+#define		LCD_E_PIN		DIO_PIN3
+
+#define		LCD_DATA_PIN0		DIO_PIN0
+#define		LCD_DATA_PIN1		DIO_PIN1
+#define		LCD_DATA_PIN2		DIO_PIN2
+#define		LCD_DATA_PIN3		DIO_PIN3
+#define		LCD_DATA_PIN4		DIO_PIN4
+#define		LCD_DATA_PIN5		DIO_PIN5
+#define		LCD_DATA_PIN6		DIO_PIN6
+#define		LCD_DATA_PIN7		DIO_PIN7
+
+
+
+#endif /* LCD_CFG_H_ */
